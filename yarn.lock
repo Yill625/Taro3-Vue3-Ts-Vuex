@@ -1227,6 +1227,15 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
+"@nutui/nutui-taro@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.nlark.com/@nutui/nutui-taro/download/@nutui/nutui-taro-3.1.2.tgz#5934bbf9449e2b27b0de4073f429eb86e4249f6b"
+  integrity sha1-WTS7+USeKyew3kBz9CnrhuQkn2s=
+  dependencies:
+    sass "^1.34.0"
+    vue "^3.0.5"
+    vue-router "^4.0.4"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   version "0.4.3"
   resolved "https://registry.nlark.com/@pmmmwh/react-refresh-webpack-plugin/download/@pmmmwh/react-refresh-webpack-plugin-0.4.3.tgz#1eec460596d200c0236bf195b078a5d1df89b766"
@@ -2059,6 +2068,11 @@
   dependencies:
     "@vue/compiler-dom" "3.1.5"
     "@vue/shared" "3.1.5"
+
+"@vue/devtools-api@^6.0.0-beta.14":
+  version "6.0.0-beta.15"
+  resolved "https://registry.nlark.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.15.tgz#ad7cb384e062f165bcf9c83732125bffbc2ad83d"
+  integrity sha1-rXyzhOBi8WW8+cg3MhJb/7wq2D0=
 
 "@vue/reactivity@3.1.5":
   version "3.1.5"
@@ -11724,7 +11738,7 @@ sass@1.32.11:
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
-sass@^1.23.7:
+sass@^1.23.7, sass@^1.34.0:
   version "1.37.0"
   resolved "https://registry.nlark.com/sass/download/sass-1.37.0.tgz?cache=0&sync_timestamp=1627689703649&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsass%2Fdownload%2Fsass-1.37.0.tgz#f1b03a9d072ee9053a29d125c8130c78e92827c2"
   integrity sha1-8bA6nQcu6QU6KdElyBMMeOkoJ8I=
@@ -13738,6 +13752,13 @@ vue-loader@^16.0.0-beta.8:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
+vue-router@^4.0.4:
+  version "4.0.10"
+  resolved "https://registry.nlark.com/vue-router/download/vue-router-4.0.10.tgz#ec8fda032949b2a31d3273170f8f376e86eb52ac"
+  integrity sha1-7I/aAylJsqMdMnMXD483bobrUqw=
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.14"
+
 vue-template-compiler@^2.6.10:
   version "2.6.14"
   resolved "https://registry.nlark.com/vue-template-compiler/download/vue-template-compiler-2.6.14.tgz?cache=0&sync_timestamp=1623059734748&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-template-compiler%2Fdownload%2Fvue-template-compiler-2.6.14.tgz#a2f0e7d985670d42c9c9ee0d044fed7690f4f763"
@@ -13746,7 +13767,7 @@ vue-template-compiler@^2.6.10:
     de-indent "^1.0.2"
     he "^1.1.0"
 
-vue@^3.0.0:
+vue@^3.0.0, vue@^3.0.5:
   version "3.1.5"
   resolved "https://registry.nlark.com/vue/download/vue-3.1.5.tgz#12879b11d0685ee4478c8869551799630a52f9fe"
   integrity sha1-EoebEdBoXuRHjIhpVReZYwpS+f4=
