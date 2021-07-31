@@ -4,19 +4,19 @@
   </view>
   <button type="warn" :disabled="true">1212</button>
   <checkbox-group @change="abc">
-    <checkbox></checkbox>
+    <checkbox> </checkbox>
   </checkbox-group>
   <hellow />
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
-import hellow from "../../compoment/button/index.vue";
+import { ref } from 'vue'
+import hellow from '../../compoment/button/index.vue'
 
-import "./index.scss";
+import './index.scss'
 
-const msg = ref("Hello world");
+const msg = ref('Hello world')
 const abc = () => {
-  console.log(1231);
-};
+  console.log(1231)
+}
 </script>
