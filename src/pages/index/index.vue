@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import hellow from '../../compoment/button/index.vue'
+import hellow from '@/components/button/index.vue'
 
 import './index.scss'
 
